@@ -1,0 +1,13 @@
+{
+  "accident": 0.0,
+  "congestion": 0.0,
+  "construction": 0.7627,
+  "others": 0.5107,
+  "pot_holes": 0.8631,
+  "procession": 0.0,
+  "road_conditions": 0.7935,
+  "tree_fall": 0.546,
+  "vehicle_breakdown": 0.0005,
+  "water_logging": 0.6831,
+  "_default": 0.2476
+}

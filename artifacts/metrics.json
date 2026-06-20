@@ -1,0 +1,109 @@
+{
+  "baseline_majority_class": "<=1hr",
+  "baseline_accuracy": 0.471,
+  "baseline_macro_f1": 0.1601,
+  "cv_accuracy_mean": 0.5732,
+  "cv_accuracy_folds": [
+    0.5777,
+    0.551,
+    0.5676,
+    0.5723,
+    0.5975
+  ],
+  "cv_macro_f1_mean": 0.4596,
+  "cv_macro_f1_folds": [
+    0.4734,
+    0.4346,
+    0.4542,
+    0.4352,
+    0.5008
+  ],
+  "test_set_classification_report": {
+    "1-6hr": {
+      "precision": 0.37662337662337664,
+      "recall": 0.16201117318435754,
+      "f1-score": 0.2265625,
+      "support": 179.0
+    },
+    "6-24hr": {
+      "precision": 0.4117647058823529,
+      "recall": 0.28,
+      "f1-score": 0.3333333333333333,
+      "support": 25.0
+    },
+    "<=1hr": {
+      "precision": 0.6813880126182965,
+      "recall": 0.72,
+      "f1-score": 0.700162074554295,
+      "support": 300.0
+    },
+    ">24hr": {
+      "precision": 0.5530973451327433,
+      "recall": 0.9398496240601504,
+      "f1-score": 0.6963788300835655,
+      "support": 133.0
+    },
+    "accuracy": 0.5918367346938775,
+    "macro avg": {
+      "precision": 0.5057183600641924,
+      "recall": 0.525465199311127,
+      "f1-score": 0.4891091844927985,
+      "support": 637.0
+    },
+    "weighted avg": {
+      "precision": 0.55837998861976,
+      "recall": 0.5918367346938775,
+      "f1-score": 0.5518917230780785,
+      "support": 637.0
+    }
+  },
+  "test_set_confusion_matrix": [
+    [
+      29,
+      3,
+      101,
+      46
+    ],
+    [
+      2,
+      7,
+      0,
+      16
+    ],
+    [
+      43,
+      2,
+      216,
+      39
+    ],
+    [
+      3,
+      5,
+      0,
+      125
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "1-6hr",
+    "6-24hr",
+    "<=1hr",
+    ">24hr"
+  ],
+  "n_train": 2545,
+  "n_test": 637,
+  "feature_importances": {
+    "event_type": 0.0029,
+    "event_cause": 0.3346,
+    "requires_road_closure": 0.013,
+    "corridor": 0.0516,
+    "priority": 0.0148,
+    "police_station": 0.0785,
+    "latitude": 0.1357,
+    "longitude": 0.1381,
+    "hour": 0.1044,
+    "dow": 0.0659,
+    "month": 0.0605
+  },
+  "known_weak_class": "1-6hr (test recall ~0.16-0.28, smallest reliably-sized class)",
+  "disclosed_limitation": "Label coverage is 39.1% of all events (3,182 of 8,173 after cleaning); this classifier is trained and evaluated only on events with a usable duration label."
+}

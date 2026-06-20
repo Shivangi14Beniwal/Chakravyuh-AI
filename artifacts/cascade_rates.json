@@ -1,0 +1,913 @@
+{
+  "28thMainJayanagarJunc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.2,
+    "median_gap_hours": 416.16
+  },
+  "29thMainRdBTM LayoutJunc": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 361.41
+  },
+  "A S CharStreet-MysoreRdJunc": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 214.59
+  },
+  "AgaraJunction": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.4,
+    "median_gap_hours": 124.5
+  },
+  "AnandRaoJunction": {
+    "n_events": 7,
+    "cascade_rate_within_2hr": 0.3333,
+    "median_gap_hours": 127.02
+  },
+  "AnepalyaJunc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 148.23
+  },
+  "AnilKumbleCircle": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 186.4
+  },
+  "ArakereGateJunc": {
+    "n_events": 15,
+    "cascade_rate_within_2hr": 0.0714,
+    "median_gap_hours": 73.04
+  },
+  "Arbindo Circle": {
+    "n_events": 10,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 84.78
+  },
+  "AshirwadamCircle": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 166.84
+  },
+  "Ashoknagar Junction(ShoolayCircle)": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 125.82
+  },
+  "AyyappaTempleJunc": {
+    "n_events": 49,
+    "cascade_rate_within_2hr": 0.75,
+    "median_gap_hours": 0.03
+  },
+  "BDA Junctio-Koramangala": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.6,
+    "median_gap_hours": 0.06
+  },
+  "BEL Circle": {
+    "n_events": 25,
+    "cascade_rate_within_2hr": 0.125,
+    "median_gap_hours": 59.1
+  },
+  "BMTCJunction-K H Road": {
+    "n_events": 10,
+    "cascade_rate_within_2hr": 0.125,
+    "median_gap_hours": 164.4
+  },
+  "BTM16thMain-ORR Junc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 310.71
+  },
+  "BagalurCrossJunc": {
+    "n_events": 27,
+    "cascade_rate_within_2hr": 0.1154,
+    "median_gap_hours": 35.33
+  },
+  "BanashankariBusStandJunc": {
+    "n_events": 13,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 97.89
+  },
+  "BangaloreBodyBuildersJunc": {
+    "n_events": 19,
+    "cascade_rate_within_2hr": 0.2222,
+    "median_gap_hours": 64.94
+  },
+  "BasaweshwaraCircle": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.5,
+    "median_gap_hours": 63.84
+  },
+  "Batrayanapura(Amrutahalli)Junction": {
+    "n_events": 14,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 63.94
+  },
+  "BigBazaar(Whitefield)Junc": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 167.63
+  },
+  "BigBazaarJunction(OldMadrasRd)": {
+    "n_events": 26,
+    "cascade_rate_within_2hr": 0.32,
+    "median_gap_hours": 25.09
+  },
+  "BilekahalliJunc": {
+    "n_events": 14,
+    "cascade_rate_within_2hr": 0.0769,
+    "median_gap_hours": 80.97
+  },
+  "BinnyMillJunction": {
+    "n_events": 7,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 284.11
+  },
+  "BiryandCircle": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 274.8
+  },
+  "BloodBankCircle": {
+    "n_events": 15,
+    "cascade_rate_within_2hr": 0.3571,
+    "median_gap_hours": 43.29
+  },
+  "Bommanahalli": {
+    "n_events": 26,
+    "cascade_rate_within_2hr": 0.28,
+    "median_gap_hours": 39.09
+  },
+  "BucheryJunction": {
+    "n_events": 11,
+    "cascade_rate_within_2hr": 0.3,
+    "median_gap_hours": 27.78
+  },
+  "CID-CarltonHouseJunc": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 149.36
+  },
+  "CMH Rd-AdarshTheaterJunc": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.75,
+    "median_gap_hours": 0.02
+  },
+  "CMP GateJunc": {
+    "n_events": 20,
+    "cascade_rate_within_2hr": 0.2105,
+    "median_gap_hours": 42.6
+  },
+  "ChaudrayaCircle/UdayaTVCircle(CantonmentJunc)": {
+    "n_events": 7,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 252.04
+  },
+  "Chokasandra (Tumkur road)": {
+    "n_events": 14,
+    "cascade_rate_within_2hr": 0.0769,
+    "median_gap_hours": 124.52
+  },
+  "CoffeeBoardJunc": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 192.46
+  },
+  "CommandoHospitalJunc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.2,
+    "median_gap_hours": 150.45
+  },
+  "DairyCircle": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 92.45
+  },
+  "DevangaHostelJunction": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 239.91
+  },
+  "Devasandra(k r puram)": {
+    "n_events": 30,
+    "cascade_rate_within_2hr": 0.069,
+    "median_gap_hours": 31.81
+  },
+  "Deverabeesanahalli-ORR Junc": {
+    "n_events": 15,
+    "cascade_rate_within_2hr": 0.2143,
+    "median_gap_hours": 73.37
+  },
+  "DhobiGhatJunc": {
+    "n_events": 7,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 176.66
+  },
+  "DomlurWaterTank": {
+    "n_events": 12,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 121.05
+  },
+  "Dr RajkumarRd-10thCrossRdJunc": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 166.49
+  },
+  "Dr TCM RoyanRd near AmbedkarStatue": {
+    "n_events": 12,
+    "cascade_rate_within_2hr": 0.2,
+    "median_gap_hours": 101.94
+  },
+  "ElectronicCityGate-2Junc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 98.58
+  },
+  "EliteJunc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 315.24
+  },
+  "FTI Junction(KanteeravaStudio)": {
+    "n_events": 11,
+    "cascade_rate_within_2hr": 0.1,
+    "median_gap_hours": 98.08
+  },
+  "GangammagudiJunc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 129.08
+  },
+  "GarebhavipalyaJunc": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 291.2
+  },
+  "GokuldasImagesJunc": {
+    "n_events": 28,
+    "cascade_rate_within_2hr": 0.0741,
+    "median_gap_hours": 49.23
+  },
+  "GoruguntepalyaJunc": {
+    "n_events": 20,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 42.38
+  },
+  "HainsJunc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 171.02
+  },
+  "HebbalFlyoverJunc": {
+    "n_events": 28,
+    "cascade_rate_within_2hr": 0.0741,
+    "median_gap_hours": 30.95
+  },
+  "HennurRd-DavisRdJunction": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 496.74
+  },
+  "HennurRoad-ORR Junc": {
+    "n_events": 17,
+    "cascade_rate_within_2hr": 0.125,
+    "median_gap_hours": 82.63
+  },
+  "HesaraghattaJunction": {
+    "n_events": 30,
+    "cascade_rate_within_2hr": 0.1379,
+    "median_gap_hours": 59.95
+  },
+  "HoodiJunction": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 213.11
+  },
+  "HopefarmJunction": {
+    "n_events": 10,
+    "cascade_rate_within_2hr": 0.2222,
+    "median_gap_hours": 278.4
+  },
+  "HoramavuJunction": {
+    "n_events": 12,
+    "cascade_rate_within_2hr": 0.1818,
+    "median_gap_hours": 90.93
+  },
+  "HudsonCircle": {
+    "n_events": 16,
+    "cascade_rate_within_2hr": 0.0714,
+    "median_gap_hours": 94.77
+  },
+  "HulimaveRd-BanneraghattaRdJunc": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.375,
+    "median_gap_hours": 111.32
+  },
+  "HunsemarammanahalliJunction": {
+    "n_events": 7,
+    "cascade_rate_within_2hr": 0.1667,
+    "median_gap_hours": 151.17
+  },
+  "ISRO Junction-Airport rd": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 137.19
+  },
+  "IbblurJunction'": {
+    "n_events": 13,
+    "cascade_rate_within_2hr": 0.0833,
+    "median_gap_hours": 101.82
+  },
+  "IndianExpressJunction": {
+    "n_events": 16,
+    "cascade_rate_within_2hr": 0.1333,
+    "median_gap_hours": 78.08
+  },
+  "ItmaduJunction": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 308.48
+  },
+  "JP Nagar 15th cross junction": {
+    "n_events": 7,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 235.36
+  },
+  "JP Nagar 9th cross-24th main jn": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.5,
+    "median_gap_hours": 60.3
+  },
+  "JaiMuniRaoCircle": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 86.67
+  },
+  "JakkurCrossJunction": {
+    "n_events": 18,
+    "cascade_rate_within_2hr": 0.1765,
+    "median_gap_hours": 60.42
+  },
+  "JalahalliCross(SM Circle)": {
+    "n_events": 32,
+    "cascade_rate_within_2hr": 0.129,
+    "median_gap_hours": 50.09
+  },
+  "JayadevaHospitalJunc": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 223.3
+  },
+  "K H Road-SiddaiahRdJunc(BMTC-BigBazaar)": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 142.23
+  },
+  "K R Circle": {
+    "n_events": 31,
+    "cascade_rate_within_2hr": 0.2069,
+    "median_gap_hours": 38.81
+  },
+  "K R MarketJunction": {
+    "n_events": 7,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 114.54
+  },
+  "KIMCO Junction": {
+    "n_events": 31,
+    "cascade_rate_within_2hr": 0.0333,
+    "median_gap_hours": 40.62
+  },
+  "KadirenahalliJunction": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.1429,
+    "median_gap_hours": 93.99
+  },
+  "Kadubeesanahalli-ORR Junc": {
+    "n_events": 12,
+    "cascade_rate_within_2hr": 0.0909,
+    "median_gap_hours": 85.75
+  },
+  "KalyanNagar-ORR Junc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 352.65
+  },
+  "KamrajRdJunction": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 444.16
+  },
+  "KanakapuraRd-RingRdJunction": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.2857,
+    "median_gap_hours": 33.39
+  },
+  "KarnatakaBhavanJunction": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.2857,
+    "median_gap_hours": 317.38
+  },
+  "KatriguppeJunction": {
+    "n_events": 12,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 73.5
+  },
+  "KhodaysCircle(DV UrsCircle)": {
+    "n_events": 23,
+    "cascade_rate_within_2hr": 0.2727,
+    "median_gap_hours": 62.73
+  },
+  "KodigehalliCross": {
+    "n_events": 11,
+    "cascade_rate_within_2hr": 0.3,
+    "median_gap_hours": 155.51
+  },
+  "KogilluCrossJunc": {
+    "n_events": 15,
+    "cascade_rate_within_2hr": 0.1429,
+    "median_gap_hours": 22.6
+  },
+  "KonanakunteJunction(KanakapurarRd)": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 230.67
+  },
+  "KoramangalaWaterTankJunc": {
+    "n_events": 29,
+    "cascade_rate_within_2hr": 0.5,
+    "median_gap_hours": 1.39
+  },
+  "KrishnaFlourMill": {
+    "n_events": 19,
+    "cascade_rate_within_2hr": 0.0625,
+    "median_gap_hours": 61.35
+  },
+  "Krupanidhi College": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 112.19
+  },
+  "Kudlu Gate Junc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 225.53
+  },
+  "KundanahalliGateJunc": {
+    "n_events": 11,
+    "cascade_rate_within_2hr": 0.1111,
+    "median_gap_hours": 163.67
+  },
+  "LRDE Junction": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 171.52
+  },
+  "LalbaghMainGateJunc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.2,
+    "median_gap_hours": 244.03
+  },
+  "LeprosyhospitalJunc": {
+    "n_events": 21,
+    "cascade_rate_within_2hr": 0.1053,
+    "median_gap_hours": 52.77
+  },
+  "MC Circle": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.2,
+    "median_gap_hours": 265.34
+  },
+  "MICO Bande": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.2,
+    "median_gap_hours": 304.46
+  },
+  "MS RamaiahJunc(TollGate)": {
+    "n_events": 11,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 117.82
+  },
+  "MahalaxmiLayoutEntranceJunc": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 155.67
+  },
+  "Malleswaram18thCrossRd-SampigeRdJunc": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 225.79
+  },
+  "MaratahalliBridgeJunc": {
+    "n_events": 16,
+    "cascade_rate_within_2hr": 0.2,
+    "median_gap_hours": 23.94
+  },
+  "MargosaRd-18thCrossJunc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.4,
+    "median_gap_hours": 97.78
+  },
+  "Marigowda-TavarkereRdJunc": {
+    "n_events": 13,
+    "cascade_rate_within_2hr": 0.0833,
+    "median_gap_hours": 151.43
+  },
+  "MayohallJunction": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 298.66
+  },
+  "MeenakshiMallJunc": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 238.55
+  },
+  "MekhriCircle": {
+    "n_events": 64,
+    "cascade_rate_within_2hr": 0.127,
+    "median_gap_hours": 21.34
+  },
+  "MillCornerRd-SampigeRdJunc": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.375,
+    "median_gap_hours": 47.29
+  },
+  "MinskSquare(CTO Junction)": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.2857,
+    "median_gap_hours": 92.96
+  },
+  "MintoJunction": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 233.86
+  },
+  "MotherTeressaCircle": {
+    "n_events": 11,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 80.88
+  },
+  "MysoreRd-RingRdJunc(Nayandanahallii)": {
+    "n_events": 19,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 68.28
+  },
+  "N R SquareJunc": {
+    "n_events": 10,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 54.59
+  },
+  "NIMHANS Junction": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 245.19
+  },
+  "NaganathapuraJunction": {
+    "n_events": 12,
+    "cascade_rate_within_2hr": 0.0909,
+    "median_gap_hours": 110.57
+  },
+  "Nagarbhavi": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 207.25
+  },
+  "Nagavara-ORR Junction": {
+    "n_events": 32,
+    "cascade_rate_within_2hr": 0.3103,
+    "median_gap_hours": 23.36
+  },
+  "OldMadrasRd-80FeetRdJunc": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.1429,
+    "median_gap_hours": 130.76
+  },
+  "OldMadrasRd-Indranagar100ftRdJunc": {
+    "n_events": 12,
+    "cascade_rate_within_2hr": 0.1818,
+    "median_gap_hours": 134.53
+  },
+  "OldMadrasRd-NGEF Junc": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.1429,
+    "median_gap_hours": 213.46
+  },
+  "OldPoliceStation-Ashoknagar": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 356.84
+  },
+  "OperaHouseJunc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 136.58
+  },
+  "PeenyaPoliceStation": {
+    "n_events": 12,
+    "cascade_rate_within_2hr": 0.0909,
+    "median_gap_hours": 54.47
+  },
+  "PlatformRdJunction": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.5,
+    "median_gap_hours": 204.77
+  },
+  "PoliceCornerJunc": {
+    "n_events": 26,
+    "cascade_rate_within_2hr": 0.12,
+    "median_gap_hours": 54.21
+  },
+  "PoliceTimmaiahCircle(GPO)": {
+    "n_events": 14,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 67.57
+  },
+  "PotteryCircle": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 166.65
+  },
+  "PrasannaJunction": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.2,
+    "median_gap_hours": 136.0
+  },
+  "PriyadarshiniHotel,Jayamahal,RT Nagar": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 410.37
+  },
+  "PurnimaTheaterJunc": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.1667,
+    "median_gap_hours": 178.43
+  },
+  "QueensStatueCircle": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 220.82
+  },
+  "RRR(Okalipuram)Junction": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 359.64
+  },
+  "Rajajinagar19thMainJunc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.2,
+    "median_gap_hours": 88.01
+  },
+  "RajajinagarEntranceJunction": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 263.77
+  },
+  "RajeshwariJunc": {
+    "n_events": 22,
+    "cascade_rate_within_2hr": 0.0476,
+    "median_gap_hours": 76.4
+  },
+  "RamaiahCircle-UlsoorPoliceStation": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 102.87
+  },
+  "RamamurthyNagarJunction": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 113.62
+  },
+  "Richmond circle jn": {
+    "n_events": 11,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 99.94
+  },
+  "Ring road-Near Kengunte Junction": {
+    "n_events": 7,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 84.99
+  },
+  "RingRoad-UllalJunction": {
+    "n_events": 7,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 150.01
+  },
+  "SRS Peenya Junc": {
+    "n_events": 20,
+    "cascade_rate_within_2hr": 0.1053,
+    "median_gap_hours": 59.89
+  },
+  "SadahalliGateJunc(AirportRd)": {
+    "n_events": 7,
+    "cascade_rate_within_2hr": 0.5,
+    "median_gap_hours": 53.02
+  },
+  "SadashivnagarJunc": {
+    "n_events": 13,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 32.79
+  },
+  "SagarHospitalJunc": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.5,
+    "median_gap_hours": 43.91
+  },
+  "SagarTheatreJunc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 442.04
+  },
+  "SandeepUnnikrishnan-Yelhanka": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.1429,
+    "median_gap_hours": 99.18
+  },
+  "SantheCircle": {
+    "n_events": 25,
+    "cascade_rate_within_2hr": 0.125,
+    "median_gap_hours": 55.23
+  },
+  "SarjapurRd-St JohnsRdJunc": {
+    "n_events": 10,
+    "cascade_rate_within_2hr": 0.6667,
+    "median_gap_hours": 0.68
+  },
+  "SatteliteBusStandJunc": {
+    "n_events": 43,
+    "cascade_rate_within_2hr": 0.0238,
+    "median_gap_hours": 32.85
+  },
+  "ShantalaJunction": {
+    "n_events": 15,
+    "cascade_rate_within_2hr": 0.2857,
+    "median_gap_hours": 75.72
+  },
+  "ShivajiTalkiesJunc": {
+    "n_events": 7,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 226.79
+  },
+  "Shivajinagar(BRV)Junction": {
+    "n_events": 16,
+    "cascade_rate_within_2hr": 0.1333,
+    "median_gap_hours": 77.52
+  },
+  "ShivandaCircle": {
+    "n_events": 12,
+    "cascade_rate_within_2hr": 0.3636,
+    "median_gap_hours": 103.68
+  },
+  "Shivashankara circle": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 247.65
+  },
+  "SiddalingaiahCircle": {
+    "n_events": 11,
+    "cascade_rate_within_2hr": 0.1111,
+    "median_gap_hours": 114.06
+  },
+  "SiddapuraJunction": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 106.83
+  },
+  "SilkBoardJunc": {
+    "n_events": 33,
+    "cascade_rate_within_2hr": 0.2812,
+    "median_gap_hours": 24.15
+  },
+  "SindhiColonyJunction": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.125,
+    "median_gap_hours": 126.59
+  },
+  "SirsiCircle": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 154.29
+  },
+  "Srigandakaval": {
+    "n_events": 14,
+    "cascade_rate_within_2hr": 0.0769,
+    "median_gap_hours": 49.46
+  },
+  "StateBankofMysoreJunc": {
+    "n_events": 12,
+    "cascade_rate_within_2hr": 0.0909,
+    "median_gap_hours": 67.98
+  },
+  "SubbannaJunction": {
+    "n_events": 9,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 98.89
+  },
+  "SubedarChatramRd near SheshadripuramPS": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 149.71
+  },
+  "Sumanhalli": {
+    "n_events": 16,
+    "cascade_rate_within_2hr": 0.1333,
+    "median_gap_hours": 99.98
+  },
+  "TataInstituteCircle": {
+    "n_events": 12,
+    "cascade_rate_within_2hr": 0.3636,
+    "median_gap_hours": 33.49
+  },
+  "TownhallJunction": {
+    "n_events": 30,
+    "cascade_rate_within_2hr": 0.069,
+    "median_gap_hours": 49.13
+  },
+  "TrinityCircle": {
+    "n_events": 11,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 121.2
+  },
+  "TumkurRdMarappanapalyaJunc": {
+    "n_events": 14,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 73.15
+  },
+  "TyagiHengalvarayaJunc(DickensonRd)": {
+    "n_events": 5,
+    "cascade_rate_within_2hr": 0.25,
+    "median_gap_hours": 452.23
+  },
+  "UlsoorGateJunc": {
+    "n_events": 12,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 103.43
+  },
+  "UniversityJunc(Janabharti)": {
+    "n_events": 11,
+    "cascade_rate_within_2hr": 0.1429,
+    "median_gap_hours": 121.08
+  },
+  "UrvashiJunction": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 50.33
+  },
+  "UttarahalliJunction": {
+    "n_events": 15,
+    "cascade_rate_within_2hr": 0.3077,
+    "median_gap_hours": 70.75
+  },
+  "VeerannapalyaJunction(BEL,HO)": {
+    "n_events": 30,
+    "cascade_rate_within_2hr": 0.3448,
+    "median_gap_hours": 22.39
+  },
+  "VeerasandraGateJunction": {
+    "n_events": 11,
+    "cascade_rate_within_2hr": 0.1,
+    "median_gap_hours": 159.71
+  },
+  "VijayanagarBusStandJunction": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.2,
+    "median_gap_hours": 185.86
+  },
+  "WilsonGarden10thCrossJunc": {
+    "n_events": 6,
+    "cascade_rate_within_2hr": 0.0,
+    "median_gap_hours": 122.29
+  },
+  "WilsonGarden12thCrossJunc": {
+    "n_events": 8,
+    "cascade_rate_within_2hr": 0.1429,
+    "median_gap_hours": 94.52
+  },
+  "YelhankaBypass": {
+    "n_events": 19,
+    "cascade_rate_within_2hr": 0.1111,
+    "median_gap_hours": 68.14
+  },
+  "YelhankaCircle": {
+    "n_events": 34,
+    "cascade_rate_within_2hr": 0.1818,
+    "median_gap_hours": 32.77
+  },
+  "YeshwanthpuraCircle": {
+    "n_events": 38,
+    "cascade_rate_within_2hr": 0.0811,
+    "median_gap_hours": 42.46
+  },
+  "toll gate mysore road": {
+    "n_events": 33,
+    "cascade_rate_within_2hr": 0.3438,
+    "median_gap_hours": 22.79
+  },
+  "_population_fallback": {
+    "n_events": 2230,
+    "cascade_rate_within_2hr": 0.1576,
+    "median_gap_hours": 68.29,
+    "note": "Used when junction is missing or has <5 historical events (69.3% of rows have no junction)."
+  }
+}
