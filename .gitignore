@@ -1,0 +1,10 @@
+data/raw/*.csv
+data/processed/*.csv
+artifacts/*.pkl
+artifacts/*.json
+artifacts/*.csv
+artifacts_test/
+__pycache__/
+*.pyc
+.streamlit/
+.pytest_cache/

@@ -1,0 +1,52 @@
+chakravyuh-frozen/
+├── data/
+│   ├── raw/                          # original Astram CSV (not committed, gitignored)
+│   └── processed/
+│       └── model_df_full.csv          # audited, cleaned, label-added table (3,182 rows)
+├── src/                                # FROZEN backend -- not modified by the product layer
+│   ├── features/
+│   │   ├── build_features.py          # cleaning + feature engineering pipeline
+│   │   └── encoders.py                # fitted OrdinalEncoder / scaler persistence helpers
+│   ├── models/
+│   │   ├── train_classifier.py        # closure bucket classifier training
+│   │   ├── train_similarity.py        # kNN index builder
+│   │   └── train_all.py               # one-command orchestration of all training steps
+│   ├── inference/
+│   │   ├── predict.py                 # single-event inference: bucket + neighbors + indices
+│   │   ├── impact_index.py            # derived impact index (no learned model)
+│   │   └── cascade_indicator.py       # junction repeat-gap statistical flag
+│   └── utils/
+│       └── io.py                      # load/save helpers for artifacts
+├── artifacts/                          # FROZEN -- trained models, indices, derived lookups
+│   ├── classifier.pkl
+│   ├── encoder.pkl
+│   ├── knn_scaler.pkl
+│   ├── nn_index.pkl
+│   ├── nn_feature_columns.pkl
+│   ├── nn_lookup.csv
+│   ├── metrics.json
+│   ├── cause_tail_weights.json
+│   └── cascade_rates.json
+├── app/                                 # PRODUCT LAYER -- the Traffic Command Center
+│   ├── theme.py                        # dark control-room CSS theme, design tokens
+│   ├── closure_panel.py                # original tested Event Intelligence component (unchanged)
+│   ├── services/
+│   │   └── data_service.py             # caching/aggregation wrapper over frozen artifacts
+│   ├── components/
+│   │   └── widgets.py                  # summary cards, alert rows, ticker, pills
+│   └── pages/
+│       ├── home.py                     # 1. Command center homepage
+│       ├── map_view.py                 # 2. Bengaluru map view
+│       ├── event_intelligence.py       # 3. Event intelligence panel
+│       ├── alerts.py                   # 4. Active alerts feed
+│       └── decision_support.py         # 5. Decision support panel
+├── tests/
+│   ├── test_features.py
+│   ├── test_classifier.py
+│   ├── test_inference.py
+│   └── test_app_pages.py               # AppTest-based screen rendering tests
+├── notebooks/
+│   └── audit.ipynb                     # archived EDA/audit (reference only, not used by app)
+├── requirements.txt
+├── app.py                              # main entry point: navigation rail + page routing
+└── README.md                           # includes the frozen metrics as documented evidence
