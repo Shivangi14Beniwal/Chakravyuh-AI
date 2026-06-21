@@ -1,6 +1,6 @@
 Chakravyuh AI — Closure Outcome Intelligence
 
-Live Demo: <[deployment-link](https://chakravyuh-ai-asz6pnxrwmxkrzffx6vbyf.streamlit.app/)>
+Live Demo: <[deployment-link](https://chakravyuh-ai-shivangi-beniwal.streamlit.app/)>
 
 Video Walkthrough: <video-link>
 
