@@ -228,3 +228,4 @@ page switches happen via widget interaction within one script.
 - The impact index weighting (0.4 / 0.3 / 0.3) is a stated design choice,
   not a learned weighting -- there is no ground-truth impact label in the
   source data to learn from.
+
