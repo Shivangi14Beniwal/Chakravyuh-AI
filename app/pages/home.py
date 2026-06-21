@@ -32,6 +32,9 @@ def render():
     closure_events = int(df["requires_road_closure"].sum())
     long_closure_events = int(df["duration_bucket"].isin(["6-24hr", ">24hr"]).sum())
     high_priority_events = int((df["priority"] == "High").sum())
+    n_junctions = len(cascade_rates) - 1
+    cv_accuracy_pct = metrics['cv_accuracy_mean'] * 100
+    baseline_accuracy_pct = metrics['baseline_accuracy'] * 100
 
     st.markdown(
         f"""
@@ -42,16 +45,16 @@ def render():
             <div class="cc-hero-tagline">Predict <span>•</span> Analyze <span>•</span> Prevent <span>•</span> Respond</div>
             <div class="cc-hero-stats">
                 <div class="cc-hero-stat">
-                    <div class="cc-hero-stat-value cc-count-target" data-count-to="{total_events}">0</div>
-                    <div class="cc-hero-stat-label">Historical Events Analysed</div>
+                    <div class="cc-hero-stat-value">{total_events:,}</div>
+                    <div class="cc-hero-stat-label">Historical Events Analyzed</div>
                 </div>
                 <div class="cc-hero-stat">
-                    <div class="cc-hero-stat-value cc-count-target" data-count-to="{metrics['cv_accuracy_mean']*100:.1f}" data-count-suffix="%">0%</div>
-                    <div class="cc-hero-stat-label">Decision Support Engine</div>
+                    <div class="cc-hero-stat-value">{cv_accuracy_pct:.1f}%</div>
+                    <div class="cc-hero-stat-label">Classifier Accuracy (vs {baseline_accuracy_pct:.1f}% baseline)</div>
                 </div>
                 <div class="cc-hero-stat">
-                    <div class="cc-hero-stat-value cc-count-target" data-count-to="{len(cascade_rates) - 1}">0</div>
-                    <div class="cc-hero-stat-label">Operational Intelligence System</div>
+                    <div class="cc-hero-stat-value">{n_junctions}</div>
+                    <div class="cc-hero-stat-label">Junctions Monitored</div>
                 </div>
             </div>
         </div>
@@ -137,7 +140,6 @@ def render():
             unsafe_allow_html=True,
         )
 
-        n_junctions = len(cascade_rates) - 1
         st.markdown(
             f"""
             <div class="cc-panel">
@@ -155,35 +157,4 @@ def render():
         "(3,182 events with usable closure outcomes) and the frozen classifier evaluation. "
         "Nothing on this screen is a live feed of new incidents — this is a historical "
         "intelligence summary."
-    )
-
-    st.markdown(
-        """
-        <script>
-        (function() {
-            function animateCounters() {
-                const els = window.parent.document.querySelectorAll('.cc-count-target[data-count-to]');
-                els.forEach(function(el) {
-                    if (el.dataset.animated) return;
-                    el.dataset.animated = "1";
-                    const target = parseFloat(el.getAttribute('data-count-to'));
-                    const suffix = el.getAttribute('data-count-suffix') || '';
-                    const isInt = Number.isInteger(target);
-                    const duration = 900;
-                    const start = performance.now();
-                    function step(now) {
-                        const progress = Math.min((now - start) / duration, 1);
-                        const eased = 1 - Math.pow(1 - progress, 3);
-                        const value = target * eased;
-                        el.textContent = (isInt ? Math.round(value).toLocaleString() : value.toFixed(1)) + suffix;
-                        if (progress < 1) requestAnimationFrame(step);
-                    }
-                    requestAnimationFrame(step);
-                });
-            }
-            setTimeout(animateCounters, 60);
-        })();
-        </script>
-        """,
-        unsafe_allow_html=True,
     )
